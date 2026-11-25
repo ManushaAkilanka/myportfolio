@@ -501,6 +501,7 @@
                 Connect:</span>
 
               <a href="https://github.com/ManushaAkilanka" target="_blank" rel="noopener noreferrer"
+                title="Visit Manusha Akilanka's GitHub Profile"
                 class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-primary/50 text-xs font-semibold text-white transition-all hover:scale-105 group shadow-sm">
                 <svg class="w-4 h-4 fill-current text-white group-hover:text-primary transition-colors"
                   viewBox="0 0 24 24">
@@ -512,6 +513,7 @@
               </a>
 
               <a href="https://www.linkedin.com/in/manusha-akilanka-b68683387" target="_blank" rel="noopener noreferrer"
+                title="Connect with Manusha Akilanka on LinkedIn"
                 class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#0A66C2]/15 hover:bg-[#0A66C2]/25 border border-[#0A66C2]/30 hover:border-[#0A66C2]/60 text-xs font-semibold text-sky-200 transition-all hover:scale-105 group shadow-sm">
                 <svg class="w-4 h-4 fill-[#0A66C2] group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
                   <path
@@ -570,8 +572,9 @@
                   <span class="material-symbols-outlined text-[18px]">devices</span>
                   <span>Modern Frontend</span>
                 </div>
-                <p class="text-xs text-textMuted">Responsive layouts with React 19, TypeScript, Tailwind CSS, Framer
-                  Motion, and PWA capabilities.</p>
+                <p class="text-xs text-textMuted">Responsive layouts with React 19, TypeScript, Tailwind CSS, Jinja2
+                  SSR,
+                  Framer Motion, and PWA capabilities.</p>
               </div>
 
               <div class="p-4 rounded-xl bg-surface/60 border border-white/5 hover:border-primary/30 transition-colors">
@@ -595,6 +598,53 @@
           </div>
         </div>
 
+      </div>
+
+      <!-- Journey & Engineering Timeline -->
+      <div class="reveal mt-10 glass-card rounded-2xl p-8">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+          <div>
+            <span class="text-xs font-mono text-primary uppercase tracking-widest">Progression</span>
+            <h3 class="text-xl font-bold text-white mt-0.5">Engineering Journey (2023 – 2026)</h3>
+          </div>
+          <span class="text-xs font-mono text-textMuted">BSc (Hons) ICT · University of Colombo</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div
+            class="relative p-5 rounded-xl bg-surface/60 border border-white/5 hover:border-primary/30 transition-colors">
+            <span
+              class="inline-block px-2.5 py-0.5 rounded-md text-[11px] font-mono bg-primary/10 text-primary border border-primary/20 mb-3">2023
+              – 2024</span>
+            <h4 class="text-sm font-bold text-white mb-1.5">CS Foundations &amp; Core Web</h4>
+            <p class="text-xs text-textMuted leading-relaxed">
+              Started BSc (Hons) in ICT at University of Colombo. Built strong foundations in Data Structures, OOP,
+              relational databases, and server-rendered web apps with Python/Flask &amp; Jinja2.
+            </p>
+          </div>
+
+          <div
+            class="relative p-5 rounded-xl bg-surface/60 border border-white/5 hover:border-accent/30 transition-colors">
+            <span
+              class="inline-block px-2.5 py-0.5 rounded-md text-[11px] font-mono bg-accent/10 text-accent border border-accent/20 mb-3">2025</span>
+            <h4 class="text-sm font-bold text-white mb-1.5">Full-Stack &amp; Native Mobile</h4>
+            <p class="text-xs text-textMuted leading-relaxed">
+              Delivered production-style systems including Lanka VSC (React/Node/MySQL + PayHere IPN) and native Android
+              apps (Kotlin/Java + Firebase Realtime DB).
+            </p>
+          </div>
+
+          <div
+            class="relative p-5 rounded-xl bg-surface/60 border border-white/5 hover:border-emerald-400/30 transition-colors">
+            <span
+              class="inline-block px-2.5 py-0.5 rounded-md text-[11px] font-mono bg-emerald-400/10 text-emerald-400 border border-emerald-400/20 mb-3">2026</span>
+            <h4 class="text-sm font-bold text-white mb-1.5">Async Systems, AI PWAs &amp; Cloud</h4>
+            <p class="text-xs text-textMuted leading-relaxed">
+              Architected async FastAPI microservices (Argon2id, CSRF, pytest-asyncio), React 19 AI PWAs (Travel Guider,
+              KeyForge), and earned AWS Cloud, UoM &amp; Agile Scrum certifications.
+            </p>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -648,7 +698,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/lanka_vsc.jpg', 'Lanka VSC – Vehicle Service Center Management System')">
-            <img src="images/lanka_vsc.jpg" alt="Lanka Vehicle Service Centre Dashboard"
+            <img src="images/lanka_vsc.jpg" alt="Lanka Vehicle Service Centre Dashboard" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -734,7 +784,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/travel_guider.jpg', 'Travel Guider – Full-Stack AI Travel Platform')">
-            <img src="images/travel_guider.jpg" alt="Travel Guider Web Application"
+            <img src="images/travel_guider.jpg" alt="Travel Guider Web Application" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -824,7 +874,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/expense_tracker.jpg', 'Personal Finance & Expense Tracker')">
-            <img src="images/expense_tracker.jpg" alt="Personal Finance Dashboard"
+            <img src="images/expense_tracker.jpg" alt="Personal Finance Dashboard" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -911,7 +961,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/taskflow.jpg', 'TaskFlow – Full-Stack Task Management Web App')">
-            <img src="images/taskflow.jpg" alt="TaskFlow Kanban Board"
+            <img src="images/taskflow.jpg" alt="TaskFlow Kanban Board" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -994,7 +1044,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/taskflow_android.jpg', 'TaskFlow – Android Task Management App')">
-            <img src="images/taskflow_android.jpg" alt="TaskFlow Android App Screens"
+            <img src="images/taskflow_android.jpg" alt="TaskFlow Android App Screens" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -1077,7 +1127,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/unimart.jpg', 'UniMart – Campus Marketplace Web App')">
-            <img src="images/unimart.jpg" alt="UniMart Campus Marketplace"
+            <img src="images/unimart.jpg" alt="UniMart Campus Marketplace" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -1161,7 +1211,7 @@
           <!-- Image Preview Header -->
           <div class="relative h-64 sm:h-72 overflow-hidden bg-surface-card cursor-pointer"
             onclick="openImageModal('images/keyforge.jpg', 'KeyForge – Cryptographically Secure Password Generator')">
-            <img src="images/keyforge.jpg" alt="KeyForge Password Generator UI"
+            <img src="images/keyforge.jpg" alt="KeyForge Password Generator UI" loading="lazy"
               class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/30 to-transparent"></div>
 
@@ -1269,7 +1319,7 @@
       </div>
 
       <!-- Skills Breakdown Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
 
         <!-- Backend & Concurrency -->
         <div class="reveal glass-card rounded-2xl p-8 hover:border-primary/40">
@@ -1387,6 +1437,43 @@
             <span
               class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-emerald-400/40 transition-colors">Git
               &amp; GitHub</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-emerald-400/40 transition-colors">Agile
+              Scrum</span>
+          </div>
+        </div>
+
+        <!-- Mobile, Databases & Methodologies -->
+        <div class="reveal glass-card rounded-2xl p-8 hover:border-violet-400/40">
+          <div class="flex items-center gap-3 mb-6">
+            <div
+              class="w-10 h-10 rounded-xl bg-violet-400/10 border border-violet-400/20 flex items-center justify-center text-violet-400">
+              <span class="material-symbols-outlined text-xl">smartphone</span>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold text-white">Mobile &amp; Databases</h3>
+              <p class="text-xs text-textMuted font-mono">Android &amp; Data Stores</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">Kotlin</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">Java</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">Android
+              Studio</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">Firebase
+              Auth &amp; RTDB</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">MongoDB
+              &amp; Mongoose</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">PostgreSQL
+              / MySQL</span>
+            <span
+              class="px-3 py-1.5 rounded-lg bg-surface/80 border border-white/5 text-xs text-white font-medium hover:border-violet-400/40 transition-colors">SQLite</span>
           </div>
         </div>
 
@@ -1412,20 +1499,21 @@
         </div>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Certificates &amp; Badges</h2>
         <p class="text-textMuted text-sm sm:text-base mt-2">
-          Official credentials issued by Amazon Web Services (AWS), Simplilearn SkillUp, and University of Moratuwa (CODL). Click any
+          Official credentials issued by Amazon Web Services (AWS), Simplilearn SkillUp, and University of Moratuwa
+          (CODL). Click any
           certificate to inspect full image.
         </p>
       </div>
 
       <!-- Certificate Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
 
         <!-- Certificate 1: Python for Beginners -->
         <article class="reveal glass-card rounded-2xl overflow-hidden flex flex-col group">
           <button
             class="relative h-60 w-full overflow-hidden text-left focus:outline-none focus:ring-2 focus:ring-primary"
             onclick="openImageModal('images/Screenshot 2026-08-15 204131.png', 'Python for Beginners – University of Moratuwa (CODL)')">
-            <img src="images/Screenshot 2026-08-15 204131.png" alt="Python for Beginners Certificate"
+            <img src="images/Screenshot 2026-08-15 204131.png" alt="Python for Beginners Certificate" loading="lazy"
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
             <span
@@ -1465,7 +1553,7 @@
           <button
             class="relative h-60 w-full overflow-hidden text-left focus:outline-none focus:ring-2 focus:ring-primary"
             onclick="openImageModal('images/Screenshot 2026-08-15 223744.png', 'Web Design for Beginners – University of Moratuwa (CODL)')">
-            <img src="images/Screenshot 2026-08-15 223744.png" alt="Web Design for Beginners Certificate"
+            <img src="images/Screenshot 2026-08-15 223744.png" alt="Web Design for Beginners Certificate" loading="lazy"
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
             <span
@@ -1505,7 +1593,7 @@
           <button
             class="relative h-60 w-full overflow-hidden text-left focus:outline-none focus:ring-2 focus:ring-primary bg-surface/50"
             onclick="openImageModal('images/agile_scrum_master.jpg', 'Agile Scrum Master – Simplilearn SkillUp')">
-            <img src="images/agile_scrum_master.jpg" alt="Agile Scrum Master Certificate – Simplilearn"
+            <img src="images/agile_scrum_master.jpg" alt="Agile Scrum Master Certificate – Simplilearn" loading="lazy"
               class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
             <span
@@ -1544,6 +1632,7 @@
             class="relative h-60 w-full overflow-hidden text-left focus:outline-none focus:ring-2 focus:ring-amber-400 bg-surface/50"
             onclick="openImageModal('images/aws_cloud_foundations.png', 'AWS Academy Graduate: Cloud Foundations – Amazon Web Services (AWS)')">
             <img src="images/aws_cloud_foundations.png" alt="AWS Academy Graduate Cloud Foundations Badge"
+              loading="lazy"
               class="w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
             <span
